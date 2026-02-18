@@ -1,9 +1,9 @@
 # Modelagem Epidemiológica da Dengue (SEIR-V)
 
-[cite_start]Este repositório contém a implementação computacional de um modelo compartimental determinístico para a dinâmica de transmissão da Dengue, desenvolvido para a disciplina de **Epidemiologia Computacional** do **DEINFO/UFRPE**[cite: 3, 4, 5].
+Este repositório contém a implementação computacional de um modelo compartimental determinístico para a dinâmica de transmissão da Dengue, desenvolvido para a disciplina de **Epidemiologia Computacional** do **DEINFO/UFRPE**[cite: 3, 4, 5].
 
 ## 📌 Sobre o Modelo
-[cite_start]Diferente dos modelos de transmissão direta como o SLITR aplicado à Tuberculose[cite: 7, 10], este projeto utiliza uma abordagem **SEIR-V**. Ele modela a interação entre humanos e o vetor (*Aedes aegypti*), considerando:
+Este projeto utiliza uma abordagem **SEIR-V**. Ele modela a interação entre humanos e o vetor (*Aedes aegypti*), considerando:
 - **S**: Suscetíveis
 - **E**: Expostos (Latência humana)
 - **I**: Infectados
