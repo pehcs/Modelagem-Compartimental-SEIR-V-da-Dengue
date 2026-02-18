@@ -1,6 +1,6 @@
 # Modelagem Epidemiológica da Dengue (SEIR-V)
 
-Este repositório contém a implementação computacional de um modelo compartimental determinístico para a dinâmica de transmissão da Dengue, desenvolvido para a disciplina de **Epidemiologia Computacional** do **DEINFO/UFRPE**[cite: 3, 4, 5].
+Este repositório contém a implementação computacional de um modelo compartimental determinístico para a dinâmica de transmissão da Dengue
 
 ## 📌 Sobre o Modelo
 Este projeto utiliza uma abordagem **SEIR-V**. Ele modela a interação entre humanos e o vetor (*Aedes aegypti*), considerando:
@@ -18,7 +18,7 @@ Este projeto utiliza uma abordagem **SEIR-V**. Ele modela a interação entre hu
 
 ### Instalação
 1. Clone o repositório e acesse a pasta:
-   ```bash
+```bash
    git https://github.com/pehcs/Modelagem-Compartimental-SEIR-V-da-Dengue
    cd Modelagem-Compartimental-SEIR-V-da-Dengue
 ```
@@ -27,14 +27,13 @@ Este projeto utiliza uma abordagem **SEIR-V**. Ele modela a interação entre hu
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # No macOS/Linux
-
 ```
 
 
 3. Instale as dependências:
+
 ```bash
 pip install -r requirements.txt
-
 ```
 
 ### Execução
@@ -42,7 +41,6 @@ Para gerar a simulação e visualizar o gráfico do surto:
 
 ```bash
 python3 model.py
-
 ```
 
 ## 📊 Metodologia
